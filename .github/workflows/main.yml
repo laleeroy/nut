@@ -26,7 +26,7 @@ jobs:
           
       - name: Execute update
         run: |
-          python3 nut.py -U --import-region US --language en
+          python3 nut.py -U --dlc 0 --update 0 --extract-version
 
       - name: Update Release
         run: |
